@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>瀑布流布局</title>
+<style type="text/css">
+body{margin:0; font-family:微软雅黑;} 
+#flow-box{margin:10px auto 0 auto; padding:0; position:relative} 
+#flow-box li{ 
+	width:190px; position:absolute; padding:10px; border:solid 1px #efcc00; list-style:none; 
+	opacity:0; 
+	transition:all 500ms ease-in-out;
+} 
+#flow-box li img{width:100%;} 
+#flow-box li a{
+	display:block; width:100%;
+ 	text-align:center; 
+ 	font-size:14px; color:#333; 
+ 	line-height:18px; 
+ 	margin-top:10px; 
+ 	text-decoration:none;
+ } 
+.loadwrap{
+	position:absolute; 
+	left:0; width:100%; 
+	text-align:center;
+}
+</style>
+</head>
+<body>
+<ul id="flow-box">
+	<li><img src="./images/1.jpg"/><a href="#">图片标题1</a></li>
+	<li><img src="./images/2.jpg"/><a href="#">图片标题2</a></li>
+	<li><img src="./images/3.jpg"/><a href="#">图片标题3</a></li>
+	<li><img src="./images/4.jpg"/><a href="#">图片标题4</a></li>
+	<li><img src="./images/5.jpg"/><a href="#">图片标题5</a></li>
+	<li><img src="./images/6.jpg"/><a href="#">图片标题6</a></li>
+	<li><img src="./images/7.jpg"/><a href="#">图片标题7</a></li>
+	<li><img src="./images/8.jpg"/><a href="#">图片标题8</a></li>
+	<li><img src="./images/9.jpg"/><a href="#">图片标题9</a></li>
+	<li><img src="./images/10.jpg"/><a href="#">图片标题10</a></li>
+	<li><img src="./images/11.jpg"/><a href="#">图片标题11</a></li>
+	<li><img src="./images/12.jpg"/><a href="#">图片标题12</a></li>
+	<li><img src="./images/13.jpg"/><a href="#">图片标题13</a></li>
+	<li><img src="./images/14.jpg"/><a href="#">图片标题14</a></li>
+	<li><img src="./images/15.jpg"/><a href="#">图片标题15</a></li>
+	<li><img src="./images/16.jpg"/><a href="#">图片标题16</a></li>
+	<li><img src="./images/17.jpg"/><a href="#">图片标题17</a></li>
+	<li><img src="./images/18.jpg"/><a href="#">图片标题18</a></li>
+	<li><img src="./images/19.jpg"/><a href="#">图片标题19</a></li>
+	<li><img src="./images/20.jpg"/><a href="#">图片标题20</a></li>
+	<li><img src="./images/21.jpg"/><a href="#">图片标题20</a></li>
+	<li><img src="./images/22.jpg"/><a href="#">图片标题20</a></li>
+	<li><img src="./images/23.jpg"/><a href="#">图片标题20</a></li>
+</ul>
+<div id="loadimg" class="loadwrap">
+	<img src="http://images.cnitblog.com/blog/708972/201504/201922091835322.gif"/>
+</div>
+<script src="js/js.js"></script>
+</body>
+</html>
